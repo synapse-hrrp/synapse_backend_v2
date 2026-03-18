@@ -1,0 +1,30 @@
+{
+    "name": "nwidart/soins",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Soins\\": "src/",
+            "Modules\\Soins\\Database\\Factories\\": "database/factories/",
+            "Modules\\Soins\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Soins\\Tests\\": "tests/"
+        }
+    }
+}

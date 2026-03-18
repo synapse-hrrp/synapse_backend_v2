@@ -1,0 +1,11 @@
+{
+    "name": "Pharmacie",
+    "alias": "pharmacie",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Pharmacie\\App\\Providers\\PharmacieServiceProvider"
+    ],
+    "files": []
+}

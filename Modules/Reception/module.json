@@ -1,0 +1,12 @@
+{
+    "name": "Reception",
+    "alias": "reception",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Reception\\App\\Providers\\ReceptionServiceProvider"
+    ],
+    "files": [],
+    "seeder": "Modules\\Reception\\Database\\Seeders\\ReceptionDatabaseSeeder"
+}

@@ -1,0 +1,13 @@
+{
+    "Users": true,
+    "Reception": true,
+    "Pharmacie": true,
+    "Caisse": true,
+    "modules\/caisse": true,
+    "RendezVous": true,
+    "Finance": true,
+    "Laboratoire": true,
+    "Soins": true,
+    "Imagerie": true,
+    "Reactifs": true
+}

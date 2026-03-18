@@ -1,0 +1,12 @@
+{
+    "name": "Laboratoire",
+    "alias": "laboratoire",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Laboratoire\\App\\Providers\\LaboratoireServiceProvider"
+    ],
+    "files": [],
+    "seeder": "Modules\\Laboratoire\\Database\\Seeders\\LaboratoireDatabaseSeeder"
+}

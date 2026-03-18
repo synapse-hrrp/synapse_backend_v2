@@ -1,0 +1,39 @@
+{
+    "name": "nwidart/pharmacie",
+    "description": "Module Pharmacie - API Stock, Vente, Réception",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Pharmacie\\PharmacieServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Pharmacie\\": "src/",
+            "Modules\\Pharmacie\\App\\Models\\": "src/App/Models/",
+            "Modules\\Pharmacie\\App\\Interfaces\\": "src/App/Interfaces/",
+            "Modules\\Pharmacie\\App\\Repository\\": "src/App/Repository/",
+            "Modules\\Pharmacie\\App\\Services\\": "src/App/Services/",
+            "Modules\\Pharmacie\\Database\\Factories\\": "database/factories/",
+            "Modules\\Pharmacie\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Pharmacie\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^8.1"
+    }
+}

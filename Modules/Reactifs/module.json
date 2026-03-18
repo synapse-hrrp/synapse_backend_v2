@@ -1,0 +1,11 @@
+{
+    "name": "Reactifs",
+    "alias": "reactifs",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Reactifs\\App\\Providers\\ReactifsServiceProvider"
+    ],
+    "files": []
+}

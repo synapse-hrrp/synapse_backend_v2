@@ -1,0 +1,12 @@
+{
+    "name": "Imagerie",
+    "alias": "imagerie",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Imagerie\\App\\Providers\\ImagerieServiceProvider"
+    ],
+    "files": [],
+    "seeder": "Modules\\Imagerie\\Database\\Seeders\\ImagérieDatabaseSeeder"
+}
